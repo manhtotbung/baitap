@@ -1,11 +1,91 @@
 
-/* Make the image fully responsive */
+header{
+ 
+}
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
 li{
  float:left;
-padding-left: 33px;
+ padding-left: 33px;
 }
 
+/* day la phan danh muc */
+.card-link{
+    padding:10px;
+}
+.card-header{
+    cursor: pointer;
+    text-align: center;
+    
+   
+}
+.Menu__list{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.Menu__list-itemlink{
+    text-decoration: none; /*Xóa gạch chân */
+    color:#7e8897;
+    font-size: 15px;
+    padding:8px 20px;
+    display:block;
+    position:relative;
+    right:0px;
+    transition:right linear 0.1s;
+}
+/* /danh muc */
+
+/* item dien thoai  */
+.SP_item-info-img{
+    width:100%;
+   
+}
+
+.SP_item-info-tagName{
+    align-items: stretch;
+    text-decoration: none;
+    color:black;
+}
+
+.SP_item-info-money{
+    align-items: stretch;
+    margin:10px;
+}
+.SP_item-info-money{
+    align-items: stretch;
+    margin:10px;
+}
+.SP_item-info-money-old{
+    font-size: 14px;
+    color:#7e8897;
+    text-decoration: line-through; /* gạch ngang */
+}
+.SP_item-info-money-new{
+    font-size: 15px;
+    font-weight: 500;
+    color:red;
+}
+
+.SP_item-info-money-sale{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: red;
+    color:rgb(249, 245, 245);
+    border:1px;
+    border-radius: 2px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(28, 29, 30);
+    width:auto;
+    height:80px;
+}
+.footer__information-link{
+    color:rgb(151, 99, 99);
+    text-decoration: none;
+    list-style: none;
+}
